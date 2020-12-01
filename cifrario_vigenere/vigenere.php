@@ -18,8 +18,6 @@
     <input name="invia" value="Invia" type="submit"><br>
     <input name="Cancella" type="reset"><br>
     </form>
-
-  </form>
   <?php if(isset($_POST['invia']) && isset($_POST['testo']) && isset($_POST['chiave'])){
 
   $alfabeto = "abcdefghijklmnopqrstuvwxyz"; //alfabeto di riferimento
